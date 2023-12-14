@@ -100,3 +100,33 @@ The MNIST dataset, consisting of grayscale images of handwritten digits (0-9), i
 ## Training Process
 * The model is compiled with an optimizer and loss function, but the initial settings might not be ideal for this specific task.
 * Training is conducted over several epochs, and the model's performance on the test set is evaluated at the end of each epoch. However, the initial training might not yield high accuracy due to suboptimal hyperparameter settings.
+
+# A crash course on tensorflow
+In TensorFlow, defining and compiling a neural network involves several key steps. Each step allows you to specify certain hyperparameters that control the network's architecture and learning process.
+
+## Defining the Neural Network
+
+### 1. Model Architecture
+* Sequential Model: In TensorFlow, a common way to build a neural network is by using the Sequential model from tensorflow.keras. This model allows layers to be added in sequence.
+
+```
+from tensorflow.keras.models import Sequential
+model = Sequential()
+```
+
+* Layers: The layers are added to the model using the .add() method. Each layer can have its own hyperparameters.
+* Dense Layer: A fully connected layer where each neuron receives input from all neurons of the previous layer.
+
+```
+from tensorflow.keras.layers import Dense
+model.add(Dense(units=64, activation='relu'))
+```
+
+* units: Number of neurons in the layer.
+* activation: The activation function for the layer.
+### 2. Input Layer
+* The first layer of the network needs to know the input shape, so the input_shape argument is often specified in the first layer.
+
+```
+model.add(Dense(64, activation='relu', input_shape=(input_dimension,)))
+```
