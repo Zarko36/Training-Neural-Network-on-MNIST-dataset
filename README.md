@@ -85,3 +85,18 @@ where  xi  is the score (also known as the logit) for class i and the denominato
 Understanding and tuning these hyperparameters is crucial for training effective neural networks. Different types of problems may require different configurations for optimal performance.
 
 # Neural Network Training on the MNIST Dataset
+
+## Overview
+In this exercise, we start with a neural network model that is initially configured to perform suboptimally on the MNIST digit classification task. This setup serves as a practical exercise in understanding and optimizing neural network hyperparameters for image recognition and machine learning.
+
+## Data Preparation
+The MNIST dataset, consisting of grayscale images of handwritten digits (0-9), is loaded and split into training and test sets. Each image, originally in a 28x28 pixel format, is normalized to ensure pixel values are in the range [0, 1]. This normalization is crucial for consistent input value scales, aiding in the training process.
+
+## Initial Neural Network Architecture
+* The initial model is a sequential feedforward neural network with two hidden layers.
+* Input Layer: A flattening layer that transforms each 28x28 image into a 1D array of 784 features.
+* Hidden Layers: Two dense layers, but with configurations that are not optimal for learning the complex patterns in the data effectively.
+* Output Layer: A final dense layer designed for multi-class classification but may not be optimized for best performance.
+## Training Process
+* The model is compiled with an optimizer and loss function, but the initial settings might not be ideal for this specific task.
+* Training is conducted over several epochs, and the model's performance on the test set is evaluated at the end of each epoch. However, the initial training might not yield high accuracy due to suboptimal hyperparameter settings.
