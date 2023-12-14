@@ -40,7 +40,6 @@ selected_labels = y_train[random_indices]
 display_images(selected_images, selected_labels)
 ```
 
-![image](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/31f00ef3-1da4-44f9-ba95-96d10727222d)
 ![download](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/b2845149-27b6-44d8-96a8-9741458512fb)
 
 # Understanding Neural Networks
