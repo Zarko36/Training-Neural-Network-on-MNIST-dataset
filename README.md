@@ -83,3 +83,5 @@ where  xi  is the score (also known as the logit) for class i and the denominato
 * The learning rate defines how quickly or slowly a neural network updates its parameters during training. A too high learning rate can cause the model to converge too quickly to a suboptimal solution, while a too low learning rate can make the training process unnecessarily long.
 
 Understanding and tuning these hyperparameters is crucial for training effective neural networks. Different types of problems may require different configurations for optimal performance.
+
+# Neural Network Training on the MNIST Dataset
