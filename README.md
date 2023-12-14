@@ -52,3 +52,4 @@ To gain a deeper understanding of neural networks, I highly recommend watching t
 
 [![0](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/1e117358-f54a-41d9-ba1a-5596e1946a3b)](https://www.youtube.com/watch?v=aircAruvnKk)
 
+Additionally, for an interactive learning experience, check out the [3Blue1Brown Neural Network Visualization](https://www.3blue1brown.com/lessons/neural-networks). This interactive blog allows you to draw digits and see how a neural network processes your input in real-time, offering a unique perspective on how neural networks make predictions.
