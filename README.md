@@ -160,3 +160,38 @@ model.add(Dense(units=64, activation='relu'))
 ```
 model.add(Dense(64, activation='relu', input_shape=(input_dimension,)))
 ```
+
+## Compiling the Neural Network
+After defining the model architecture, the next step is to compile the model. This step involves specifying the optimizer, loss function, and metrics for evaluation.
+
+### 1. Optimizer
+* The optimizer is an algorithm or method used to change the attributes of the neural network such as weights and learning rate. It helps in minimizing the loss function.
+
+```
+from tensorflow.keras.optimizers import Adam
+model.compile(optimizer=Adam(learning_rate=0.001))
+```
+
+### 2. Loss Function
+* The loss function measures how well the model is performing. A common choice for classification tasks is the categorical cross-entropy.
+
+```
+model.compile(loss='sparse_categorical_crossentropy')
+```
+
+### 3. Metrics
+* Metrics are used to evaluate the performance of your model. Accuracy is a common metric.
+
+```
+model.compile(metrics=['accuracy'])
+```
+
+### Full Compilation Example
+* Here's how the model is typically compiled with all three components:
+
+```
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+```
+This setup forms the basis of most neural network models in TensorFlow, and understanding these components is crucial for effective model training and evaluation.
