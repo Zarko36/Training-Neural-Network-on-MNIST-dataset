@@ -44,8 +44,8 @@ y=f(∑i(wi⋅xi)+b)
 Where:
 * y  is the output.
 * f  is the activation function.
-* w_i_  are the weights.
-* x_i_  are the inputs.
+* wi  are the weights.
+* xi  are the inputs.
 * b  is the bias.
 # Learning Resources
 To gain a deeper understanding of neural networks, I highly recommend watching this excellent video by [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk) on YouTube. It provides a clear and intuitive explanation of how neural networks function.
