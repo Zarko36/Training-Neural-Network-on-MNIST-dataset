@@ -196,7 +196,7 @@ model.compile(optimizer='adam',
 ```
 This setup forms the basis of most neural network models in TensorFlow, and understanding these components is crucial for effective model training and evaluation.
 
-#Trainer in the works
+# Trainer in the works
 
 ```
 from tensorflow.keras.models import Sequential
@@ -238,6 +238,73 @@ accuracy_history = AccuracyHistory()
 
 # Train the model
 model.fit(x_train, y_train, epochs=20, validation_data=(x_test, y_test), callbacks=[accuracy_history]) # Increase epochs for more training
+```
+## Output
+
+```
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 0s 0us/step
+Epoch 1/20
+1863/1875 [============================>.] - ETA: 0s - loss: 0.2210 - accuracy: 0.9325Epoch 1: Training Accuracy: 0.9327, Test Accuracy: 0.9691
+1875/1875 [==============================] - 16s 4ms/step - loss: 0.2203 - accuracy: 0.9327 - val_loss: 0.0953 - val_accuracy: 0.9691
+Epoch 2/20
+1866/1875 [============================>.] - ETA: 0s - loss: 0.1071 - accuracy: 0.9670Epoch 2: Training Accuracy: 0.9671, Test Accuracy: 0.9740
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.1069 - accuracy: 0.9671 - val_loss: 0.0828 - val_accuracy: 0.9740
+Epoch 3/20
+1865/1875 [============================>.] - ETA: 0s - loss: 0.0788 - accuracy: 0.9754Epoch 3: Training Accuracy: 0.9754, Test Accuracy: 0.9769
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0788 - accuracy: 0.9754 - val_loss: 0.0757 - val_accuracy: 0.9769
+Epoch 4/20
+1869/1875 [============================>.] - ETA: 0s - loss: 0.0673 - accuracy: 0.9785Epoch 4: Training Accuracy: 0.9784, Test Accuracy: 0.9783
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0674 - accuracy: 0.9784 - val_loss: 0.0734 - val_accuracy: 0.9783
+Epoch 5/20
+1874/1875 [============================>.] - ETA: 0s - loss: 0.0583 - accuracy: 0.9815Epoch 5: Training Accuracy: 0.9815, Test Accuracy: 0.9814
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0583 - accuracy: 0.9815 - val_loss: 0.0672 - val_accuracy: 0.9814
+Epoch 6/20
+1863/1875 [============================>.] - ETA: 0s - loss: 0.0503 - accuracy: 0.9840Epoch 6: Training Accuracy: 0.9840, Test Accuracy: 0.9793
+1875/1875 [==============================] - 11s 6ms/step - loss: 0.0506 - accuracy: 0.9840 - val_loss: 0.0712 - val_accuracy: 0.9793
+Epoch 7/20
+1860/1875 [============================>.] - ETA: 0s - loss: 0.0450 - accuracy: 0.9856Epoch 7: Training Accuracy: 0.9855, Test Accuracy: 0.9808
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0453 - accuracy: 0.9855 - val_loss: 0.0672 - val_accuracy: 0.9808
+Epoch 8/20
+1874/1875 [============================>.] - ETA: 0s - loss: 0.0404 - accuracy: 0.9870Epoch 8: Training Accuracy: 0.9870, Test Accuracy: 0.9824
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0405 - accuracy: 0.9870 - val_loss: 0.0624 - val_accuracy: 0.9824
+Epoch 9/20
+1875/1875 [==============================] - ETA: 0s - loss: 0.0399 - accuracy: 0.9872Epoch 9: Training Accuracy: 0.9872, Test Accuracy: 0.9823
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0399 - accuracy: 0.9872 - val_loss: 0.0685 - val_accuracy: 0.9823
+Epoch 10/20
+1864/1875 [============================>.] - ETA: 0s - loss: 0.0335 - accuracy: 0.9897Epoch 10: Training Accuracy: 0.9897, Test Accuracy: 0.9794
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0336 - accuracy: 0.9897 - val_loss: 0.0983 - val_accuracy: 0.9794
+Epoch 11/20
+1864/1875 [============================>.] - ETA: 0s - loss: 0.0348 - accuracy: 0.9895Epoch 11: Training Accuracy: 0.9894, Test Accuracy: 0.9828
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0349 - accuracy: 0.9894 - val_loss: 0.0709 - val_accuracy: 0.9828
+Epoch 12/20
+1867/1875 [============================>.] - ETA: 0s - loss: 0.0307 - accuracy: 0.9905Epoch 12: Training Accuracy: 0.9905, Test Accuracy: 0.9811
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0306 - accuracy: 0.9905 - val_loss: 0.0873 - val_accuracy: 0.9811
+Epoch 13/20
+1864/1875 [============================>.] - ETA: 0s - loss: 0.0314 - accuracy: 0.9901Epoch 13: Training Accuracy: 0.9901, Test Accuracy: 0.9814
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0314 - accuracy: 0.9901 - val_loss: 0.0843 - val_accuracy: 0.9814
+Epoch 14/20
+1866/1875 [============================>.] - ETA: 0s - loss: 0.0305 - accuracy: 0.9906Epoch 14: Training Accuracy: 0.9905, Test Accuracy: 0.9822
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0306 - accuracy: 0.9905 - val_loss: 0.0804 - val_accuracy: 0.9822
+Epoch 15/20
+1865/1875 [============================>.] - ETA: 0s - loss: 0.0263 - accuracy: 0.9921Epoch 15: Training Accuracy: 0.9921, Test Accuracy: 0.9808
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0262 - accuracy: 0.9921 - val_loss: 0.0859 - val_accuracy: 0.9808
+Epoch 16/20
+1870/1875 [============================>.] - ETA: 0s - loss: 0.0278 - accuracy: 0.9914Epoch 16: Training Accuracy: 0.9913, Test Accuracy: 0.9803
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0279 - accuracy: 0.9913 - val_loss: 0.0941 - val_accuracy: 0.9803
+Epoch 17/20
+1861/1875 [============================>.] - ETA: 0s - loss: 0.0255 - accuracy: 0.9921Epoch 17: Training Accuracy: 0.9921, Test Accuracy: 0.9838
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0258 - accuracy: 0.9921 - val_loss: 0.0842 - val_accuracy: 0.9838
+Epoch 18/20
+1861/1875 [============================>.] - ETA: 0s - loss: 0.0248 - accuracy: 0.9925Epoch 18: Training Accuracy: 0.9924, Test Accuracy: 0.9825
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0251 - accuracy: 0.9924 - val_loss: 0.0887 - val_accuracy: 0.9825
+Epoch 19/20
+1861/1875 [============================>.] - ETA: 0s - loss: 0.0247 - accuracy: 0.9927Epoch 19: Training Accuracy: 0.9927, Test Accuracy: 0.9843
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0245 - accuracy: 0.9927 - val_loss: 0.0852 - val_accuracy: 0.9843
+Epoch 20/20
+1867/1875 [============================>.] - ETA: 0s - loss: 0.0249 - accuracy: 0.9930Epoch 20: Training Accuracy: 0.9930, Test Accuracy: 0.9834
+1875/1875 [==============================] - 8s 4ms/step - loss: 0.0250 - accuracy: 0.9930 - val_loss: 0.0900 - val_accuracy: 0.9834
+<keras.src.callbacks.History at 0x7ce7e791da80>
 ```
 
 
