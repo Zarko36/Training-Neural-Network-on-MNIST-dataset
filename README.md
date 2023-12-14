@@ -37,6 +37,7 @@ The process of a neural network can be summarized in three key steps:
 * Backpropagation: The network compares the output it produced with the actual desired output and calculates the error.
 
 * Weight Adjustment: Using algorithms like Gradient Descent, the network adjusts its weights and biases to minimize the error.
+
 Mathematically, the operation in each neuron can be represented as:
 
 y=f(∑i(wi⋅xi)+b) 
