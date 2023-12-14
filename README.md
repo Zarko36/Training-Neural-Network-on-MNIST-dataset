@@ -24,29 +24,28 @@ Neural networks operate on layers of neurons. Each neuron in a layer is connecte
 
 ![0__SH7tsNDTkGXWtZb](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/a1e69d6d-ab6d-41f7-9881-fc4dffc0e34c)
 
-Input Layer: This is where the network receives its input data.
+* Input Layer: This is where the network receives its input data.
 
-Hidden Layers: These layers perform computations using activated weights and are the main computational engine of the neural network.
+* Hidden Layers: These layers perform computations using activated weights and are the main computational engine of the neural network.
 
-Output Layer: The final layer that outputs the prediction or classification.
+* Output Layer: The final layer that outputs the prediction or classification.
 
-The process of a neural network can be summarized in three key steps
+The process of a neural network can be summarized in three key steps:
 
-Feedforward: Input data is passed through the layers of the network. Each neuron applies a weighted sum on the inputs, adds a bias, and then passes it through an activation function.
+* Feedforward: Input data is passed through the layers of the network. Each neuron applies a weighted sum on the inputs, adds a bias, and then passes it through an activation function.
 
-Backpropagation: The network compares the output it produced with the actual desired output and calculates the error.
+* Backpropagation: The network compares the output it produced with the actual desired output and calculates the error.
 
-Weight Adjustment: Using algorithms like Gradient Descent, the network adjusts its weights and biases to minimize the error.
+* Weight Adjustment: Using algorithms like Gradient Descent, the network adjusts its weights and biases to minimize the error.
 Mathematically, the operation in each neuron can be represented as:
 
 y=f(∑i(wi⋅xi)+b) 
 
 Where:
-
-y  is the output.\
-f  is the activation function.
-wi  are the weights.
-xi  are the inputs.
-b  is the bias.
+* y  is the output.
+* f  is the activation function.
+* wi  are the weights.
+* xi  are the inputs.
+* b  is the bias.
 Learning Resources
 To gain a deeper understanding of neural networks, I highly recommend watching this excellent video by 3Blue1Brown on YouTube. It provides a clear and intuitive explanation of how neural networks function.
