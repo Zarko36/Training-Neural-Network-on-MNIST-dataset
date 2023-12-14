@@ -47,5 +47,5 @@ Where:
 * wi  are the weights.
 * xi  are the inputs.
 * b  is the bias.
-Learning Resources
-To gain a deeper understanding of neural networks, I highly recommend watching this excellent video by 3Blue1Brown on YouTube. It provides a clear and intuitive explanation of how neural networks function.
+# Learning Resources
+To gain a deeper understanding of neural networks, I highly recommend watching this excellent video by [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk) on YouTube. It provides a clear and intuitive explanation of how neural networks function.
