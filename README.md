@@ -11,4 +11,5 @@ Here is the wikipage of MNIST dataset please go through it.
 
 We will be using popular deep learning framework tensorflow to complete this activity. First let's load the dataset from tensorflow.keras.datasets and display some instances from the dataset.
 ![image](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/31f00ef3-1da4-44f9-ba95-96d10727222d)
+![download](https://github.com/Zarko36/Training-Neural-Network-on-MNIST-dataset/assets/74474117/b2845149-27b6-44d8-96a8-9741458512fb)
 
